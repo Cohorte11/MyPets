@@ -1,7 +1,7 @@
-#Ejercicio Grupal “MyPets” pt 3: Filtros de Búsqueda con JPQL y Seguridad Básica
+# Ejercicio Grupal “MyPets” pt 3: Filtros de Búsqueda con JPQL y Seguridad Básica
 En esta tercera parte del ejercicio, añadirás filtros de búsqueda a tus entidades usando JPQL y protegerás algunas rutas con seguridad básica usando Spring Security.
 
-#Instrucciones del Ejercicio
+## Instrucciones del Ejercicio
 1. Añadir Filtros de Búsqueda con JPQL en los Repositorios
   - Define métodos en los repositorios de tus entidades (User, PetProfile, Post, Comment, Like) que utilicen JPQL para realizar búsquedas avanzadas.
   - Implementa métodos para búsquedas por nombre, fecha de creación, y otros atributos relevantes de tus entidades.
@@ -17,10 +17,10 @@ En esta tercera parte del ejercicio, añadirás filtros de búsqueda a tus entid
   - Prueba la seguridad enviando solicitudes con diferentes credenciales y verificando que se apliquen las restricciones de acceso adecuadamente.
 
 
-#Ejercicio individual "Ecommerce"
+# Ejercicio individual "Ecommerce"
 Este ejercicio consiste en la creación de una API REST para un e-commerce básico. El objetivo es implementar las entidades Categoria, ECategoria, Rol, ERol, Usuario y Producto, y desarrollar la lógica completa de la aplicación usando Spring Boot. Posteriormente, esta API se utilizará para el desarrollo de una aplicación frontend con React.
 
-#Instrucciones del Ejercicio
+## Instrucciones del Ejercicio
 1. Configuración Inicial del Proyecto
   - Crear un nuevo proyecto Spring Boot:
   - Utiliza Spring Initializr para crear un nuevo proyecto con las siguientes dependencias: Spring Web, Spring Data JPA, Spring Security, MySQL Driver, y Spring Boot DevTools.
